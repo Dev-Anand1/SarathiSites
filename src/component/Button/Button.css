@@ -1,0 +1,141 @@
+/* Button.css */
+
+.Button-text-btn {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.Button-text-btn h1 {
+  font-size: 24px;
+  color: #333; /* Text color */
+}
+
+.Button-button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Button-button-item {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.Button-button-item:hover {
+  transform: scale(1.05);
+}
+
+.Button-button-demo-01,
+.Button-button-demo-02,
+.Button-button-demo-03,
+.Button-button-demo-04,
+.Button-button-demo-05,
+.Button-button-demo-06,
+.Button-button-demo-07,
+.Button-button-demo-08,
+.Button-button-demo-09 {
+  text-decoration: none;
+  color: #fff; /* Text color */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Button-button-demo-01:hover,
+.Button-button-demo-02:hover,
+.Button-button-demo-03:hover,
+.Button-button-demo-04:hover,
+.Button-button-demo-05:hover,
+.Button-button-demo-06:hover,
+.Button-button-demo-07:hover,
+.Button-button-demo-08:hover,
+.Button-button-demo-09:hover {
+  text-decoration: underline;
+}
+
+.Button-text-btn {
+  text-align: center;
+  margin: 40px 0; /* Increased margin */
+}
+
+.Button-text-btn h1 {
+  font-size: 36px; /* Increased font size */
+  color: #333; /* Text color */
+  font-family: 'Roboto', sans-serif; /* Updated font family */
+  font-weight: bold;
+}
+
+/* Button.css */
+
+.Button-home-page {
+  background: linear-gradient(to bottom, #ae34db, rgb(188, 83, 181));
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+}
+
+/* ... (previous styles) */
+
+.Button-text-btn {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.Button-text-btn h1 {
+  font-size: 36px;
+  color: #ece2e2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.Button-button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+/* ... (remaining styles) */
+
+.Button-button-demo-01 {
+  background: linear-gradient(to right, #c440e1, #b4aee8); /* Gradient color */
+}
+
+.Button-button-demo-02 {
+  background: linear-gradient(to right, #c440e1, #b4aee8); /* Gradient color */
+}
+
+.Button-button-demo-03 {
+  background: linear-gradient(to right, #c440e1, #b4aee8); /* Gradient color */
+}
+
+.Button-button-demo-04 {
+  background: linear-gradient(to right, #c440e1, #b4aee8); /* Gradient color */
+}
+
+.Button-button-demo-05 {
+  background: linear-gradient(to right, #c440e1, #b4aee8); /* Gradient color */
+}
+
+.Button-button-demo-06 {
+  background: linear-gradient(to right, #c440e1, #b4aee8); /* Gradient color */
+}
+
+.Button-button-demo-07 {
+  background: linear-gradient(to right, #c440e1, #b4aee8); /* Gradient color */
+}
+
+.Button-button-demo-08 {
+  background: linear-gradient(to right, #c440e1, #b4aee8); /* Gradient color */
+}
+
+.Button-button-demo-09 {
+  background: linear-gradient(to right, #c440e1, #b4aee8); /* Gradient color */
+}
+
+/* ... (remaining styles) */

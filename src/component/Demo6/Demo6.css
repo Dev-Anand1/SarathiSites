@@ -1,0 +1,111 @@
+/* Demo6.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.demo-body {
+  background-color: #1a1a1a;
+  color: #ffffff;}
+  
+  header {
+    background-color: #1a1a1a;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #0c0f0e; /* Adjust text color for better visibility */
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #b3b3b3; /* Adjust text color for better visibility */
+  }
+  
+  .slider-button {
+    font-size: 1.5em;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .image-slider {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+    overflow: hidden; /* Prevent image overflow from affecting layout */
+  }
+  
+  .image-slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure images cover the entire slider */
+  }
+  
+  .features {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .testimonials {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .contact-us {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  /* Add these styles to Demo6.css */
+
+.features h2,
+.testimonials h2,
+.contact-us h2,
+.contact-us p {
+    color: #000000; /* Set font color to extra black */
+}

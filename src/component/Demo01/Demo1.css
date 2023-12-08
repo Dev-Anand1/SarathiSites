@@ -1,0 +1,631 @@
+/* Apply styles only to elements within the Demo01 component */
+
+.demo-1 * {
+    font-family: 'inter', cursive, 'Dancing Script';
+    margin: 0;
+    padding: 0;
+}
+
+.demo-1 nav {
+    margin-right: 15px;
+    justify-content: flex-start;
+}
+
+.demo-1-header {
+    display: flex;
+    flex-direction: row; /* Make sure the children are aligned horizontally */
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #2D3732;
+    padding: 20px;
+}
+
+.demo-1-header-logo {
+    width: 50px;
+    height: auto;
+}
+
+.demo-1 .logo-name {
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.demo-1 .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.demo-1 ul {
+    list-style-type: none;
+}
+
+.demo-1-nav-link-home {
+    color: #629FFC;
+}
+
+.demo-1-nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.demo-1 .pri {
+    color: blue;
+}
+
+.demo-1-nav-link, .demo-1 a {
+    color: rgba(234, 239, 240, 1);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#demo-1-book-button, #demo-1-pre-order-button {
+    font-family: 'inter', cursive;
+    background: #FFFFFF;
+    width: 150px;
+    height: 48px;
+    background: #e7eeec;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 12px 24px;
+    gap: 8px;
+    color: #629FFC;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.demo-1-cta-button, .demo-1-cta-button1 {
+    gap: 15px;
+}
+
+.demo-1 #pre-oreder-button {
+    padding: 12px 24px;
+    gap: 8px;
+}
+
+.demo-1-main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.demo-1 article {
+    background-color: rgba(98, 159, 252, 0.17);
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.demo-1 .art-text {
+    width: 100%;
+}
+
+.demo-1-art-text h1 {
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.demo-1-art-text h3 {
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.demo-1 #demo-button {
+    font-family: 'inter', cursive;
+    background: #FFFFFF;
+    width: 150px;
+    height: 48px;
+    background: #e7eeec;
+    box-shadow: 5px 3px 7px gray;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 12px 24px;
+    gap: 8px;
+    color: #629FFC;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.demo-1 #pre-oreder-btn {
+    font-family: 'inter', cursive;
+    background: #FFFFFF;
+    width: 150px;
+    height: 48px;
+    background: #629FFC;
+    box-shadow: 5px 3px 7px gray;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 12px 24px;
+    gap: 8px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.demo-1 section {
+    background-color: rgba(98, 159, 252, 0.17);
+}
+
+.demo-1 .form-section {
+    background-color: rgba(98, 159, 252, 0.17);
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.demo-1 .form-text h3 {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    color: #629FFC;
+    margin-bottom: 10px;
+}
+
+.demo-1 .form-text p {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+    margin-bottom: 30px;
+}
+
+.demo-1 form {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.demo-1 .user-name {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.demo-1 #email,
+.demo-1 #phone {
+    width: 100%;
+}
+
+.demo-1 .form-input {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.demo-1 .label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.demo-1 input {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.demo-1 textarea {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.demo-1 a {
+    text-decoration: underline black;
+}
+
+.demo-1 .submit-button {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #629FFC;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid rgba(105, 167, 153, 1);
+    box-shadow: 0px 1px 1px 0px rgba(16, 24, 40, 0.05);
+    color: white;
+    font-size: 16px;
+    line-height: 10px;
+    margin-top: 30px;
+}
+
+.demo-1 footer {
+    background-color: #2D3732;
+    padding: 20px;
+}
+
+.demo-1 .footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-1 .footer-social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.demo-1 .jama {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+@media only screen and (max-width: 1280px) {
+    .demo-1 .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .demo-1 .cta-button1 {
+        display: none;
+    }
+
+    .demo-1 .cta-button {
+        margin-bottom: 20px;
+    }
+
+    .demo-1-main-text {
+        background-color: rgba(98, 159, 252, 0.17);
+        display: flex;
+        width: 100%;
+        justify-content: space-between; /* Add this line to space elements horizontally */
+        align-items: center; /* Add this line to center items vertically */
+    }
+
+    .demo-1-art-text {
+        width: calc(50% - 20px); /* Adjust the width to your desired size, considering padding */
+        padding: 20px;
+        box-sizing: border-box; /* Include padding in the width calculation */
+    }
+
+   
+.demo-1-main-button {
+    margin-top: 20px;
+}
+.demo-1-main-img {
+    width: calc(50% - 20px); /* Adjust the width to your desired size, considering padding */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+    .demo-1 .video-section {
+        display: none;
+    }
+
+    .demo-1 form {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .demo-1 .main-button {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .demo-1 #demo-button,
+    .demo-1 #pre-oreder-btn {
+        justify-self: center;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .demo-1 .main-img {
+        display: none;
+    }
+
+    .demo-1 .jama {
+        margin: 0;
+        flex-flow: column;
+        gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .demo-1 .art-text h1 {
+        margin: 10px;
+    }
+}
+
+.demo-1 .art-text h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.demo-1 #first-name,
+.demo-1 #last-name {
+    width: 100%;
+}
+
+.demo-1 .user-name {
+    flex-direction: column;
+}
+
+.demo-1 footer {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+    .demo-1 .alt-section {
+        margin: 5px;
+    }
+
+    .demo-1 form {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .demo-1 #massage {
+        width: 100%;
+    }
+
+    .demo-1 .submit-button {
+        width: 100%;
+    }
+}
+
+.demo-1 .main-img {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.demo-1 .main-img img {
+    width: 100%;
+    height: auto;
+}
+
+.demo-1 .video-section {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+}
+
+.demo-1 .video-section img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+/* Add these styles to your existing CSS code */
+
+.demo-1 .alt-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(98, 159, 252, 0.17);
+    padding: 50px 0;
+}
+
+.demo-1 .form-section {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+}
+
+.demo-1 .video-section {
+    width: 50%; /* Set the width to 50% for the video section */
+}
+
+.demo-1 .video-section img {
+    width: 100%;
+    height: auto;
+}
+
+.demo-1 form {
+    width: 50%; /* Set the width to 50% for the form section */
+}
+
+.demo-1 .user-name {
+    flex-direction: row; /* Set flex direction to row for horizontal alignment */
+}
+
+.demo-1 .form-input {
+    width: 100%;
+}
+
+.demo-1 .input-check {
+    display: flex;
+    align-items: center;
+}
+
+.demo-1 .checkbox {
+    margin-right: 10px;
+}
+
+.demo-1 .submit-button {
+    width: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+    .demo-1 .form-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .demo-1 .video-section,
+    .demo-1 form {
+        width: 100%;
+    }
+}
+
+
+.demo-1-main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.demo-1-main-text {
+    background-color: rgba(98, 159, 252, 0.17);
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Add this line to space elements horizontally */
+    align-items: center; /* Add this line to center items vertically */
+}
+
+.demo-1-art-text {
+    width: calc(50% - 20px); /* Adjust the width to your desired size, considering padding */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.demo-1-art-text h1 {
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.demo-1-art-text h3 {
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.demo-1-main-button {
+    margin-top: 20px;
+}
+
+.demo-1-main-img {
+    width: calc(50% - 20px); /* Adjust the width to your desired size, considering padding */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.demo-1-main-img img {
+    width: 100%;
+    height: auto;
+}
+
+.demo-1-alt-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(98, 159, 252, 0.17);
+    padding: 50px 0;
+}
+
+.demo-1-form-section {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+}
+
+.demo-1-video-section {
+    width: 50%;
+}
+
+.demo-1-video-section img {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    width: 50%;
+}
+
+.demo-1-user-name {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#demo-1-email,
+#demo-1-phone {
+    width: 100%;
+}
+
+.demo-1-form-input {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+}
+
+#demo-1-massage {
+    width: 100%;
+}
+
+.demo-1-input-check {
+    display: flex;
+    align-items: center;
+}
+
+#demo-1-checkbox {
+    margin-right: 10px;
+}
+
+.demo-1-submit-button {
+    width: 100%;
+}
+
+

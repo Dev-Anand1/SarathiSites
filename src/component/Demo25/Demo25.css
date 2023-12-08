@@ -1,0 +1,128 @@
+/* Demo25.css */
+
+/* Resetting some default styles for specific elements */
+.Demo25-furniture-store,
+.Demo25-store-header,
+.Demo25-store-main,
+.Demo25-product-category,
+.Demo25-product-item,
+.Demo25-store-footer,
+.Demo25-footer-info,
+.Demo25-social-media,
+.Demo25-copyright {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Overall container styles */
+.Demo25-furniture-store {
+  font-family: 'YourFontName', cursive;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+.Demo25-store-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.Demo25-store-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Demo25-store-nav li {
+  margin: 0 15px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.Demo25-store-nav li:hover {
+  color: #ffd700;
+}
+
+/* Main content styles */
+.Demo25-store-main {
+  padding: 20px;
+}
+
+.Demo25-product-category {
+  margin-bottom: 30px;
+}
+
+.Demo25-product-category h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Demo25-product-item {
+  padding: 15px;
+  background-color: #fff;
+  margin: 10px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+.Demo25-store-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.Demo25-footer-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Demo25-social-media ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Demo25-social-media li {
+  margin: 0 15px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.Demo25-social-media li:hover {
+  color: #ffd700;
+}
+
+.Demo25-copyright {
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .Demo25-store-nav ul {
+    flex-wrap: wrap;
+  }
+
+  .Demo25-store-nav li {
+    margin: 10px 0;
+    flex: 0 0 100%;
+  }
+
+  .Demo25-product-item {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

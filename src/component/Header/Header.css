@@ -1,0 +1,43 @@
+/* Header.css */
+.header-container {
+    padding: 10px 20px;
+    background-color:transparent;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-buttons {
+    display: flex;
+  }
+  
+  .header-link {
+    text-decoration: none;
+  }
+  
+  .header-demo-button,
+  .header-contact-button {
+    padding: 10px 15px;
+    margin-right: 10px; /* Adjust margin as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  .header-demo-button:hover,
+  .header-contact-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Fixed header for all pages except home */
+  .header-container:not(.home-page) {
+    position: fixed;
+    top: 0;
+    right: 0; /* Align to the right side */
+    width: 100%;
+    z-index: 1000;
+  }
+  

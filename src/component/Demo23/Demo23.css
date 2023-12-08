@@ -1,0 +1,130 @@
+/* Demo23-NarutoWiki.css */
+
+.Demo23-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .Demo23-naruto-container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Demo23-naruto-header {
+    background-color: #ffee99;
+    color: #2d3a4b;
+    padding: 20px;
+    overflow: auto;
+    animation: fadeIn 2s;
+  }
+  
+  .Demo23-naruto-header h1 {
+    margin: 0;
+    float: left;
+  }
+  
+  .Demo23-naruto-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  .Demo23-naruto-nav li {
+    display: inline;
+    margin-left: 20px;
+    color: #2d3a4b;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .Demo23-naruto-nav li:hover {
+    color: #61dafb;
+  }
+  
+  .Demo23-naruto-main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Animation Styles */
+  
+  /* 1. Lightning Animation */
+  @keyframes Demo23-lightning {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .Demo23-naruto-welcome {
+    animation: Demo23-lightning 3s infinite;
+  }
+  
+  /* 2. Spin Animation */
+  @keyframes Demo23-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Demo23-naruto-manga {
+    animation: Demo23-spin 4s linear infinite;
+  }
+  
+  /* 3. Scale Animation */
+  @keyframes Demo23-scale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .Demo23-naruto-anime {
+    animation: Demo23-scale 2s ease-in-out infinite;
+  }
+  
+  /* Add more animation styles as needed */
+  
+  /* Fade In Animation */
+  @keyframes Demo23-fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Footer Styles */
+  .Demo23-naruto-footer {
+    background-color: #2d3a4b;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Automatic color change effect for all divs */
+  .Demo23-naruto-container div:hover {
+    background-color: #ffcc66;
+    transition: background-color 0.5s ease-in-out;
+  }

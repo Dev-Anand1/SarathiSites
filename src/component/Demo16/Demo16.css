@@ -1,0 +1,87 @@
+/* Demo16.css */
+.Demo16-app-container {
+    text-align: center;
+  }
+  
+  .Demo16-header {
+    background-color: #3498db; /* Dodger Blue */
+    color: white;
+    padding: 20px;
+  }
+  
+  .Demo16-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .Demo16-air-type {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #f0f8ff; /* Alice Blue */
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  
+    /* Hover effect */
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    h2 {
+      color: #0074cc; /* Cerulean Blue */
+      margin: 0 10px;
+      font-size: 1.8em;
+      animation: slideIn 0.8s ease-in-out;
+    }
+  
+    p {
+      color: #2e8b57; /* Sea Green */
+      font-size: 1.2em;
+      line-height: 1.5;
+      opacity: 0.8;
+      transition: opacity 0.5s ease-in-out;
+    }
+  }
+  
+  /* Custom Animation */
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* New Animation */
+  @keyframes floatUp {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .Demo16-air-type:not(.Demo16-header) {
+    animation: floatUp 1s infinite alternate;
+  }
+  
+  .Demo16-footer {
+    background-color: #0074cc; /* Cerulean Blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    animation: floatUp 1s infinite alternate; /* Apply the new animation */
+  }
+  

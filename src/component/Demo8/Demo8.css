@@ -1,0 +1,141 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #3498db; /* Primary blue color */
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* src/components/TypeWriter.css */
+.TypeWriter {
+  font-size: 1.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid white;
+  padding-right: 8px;
+  animation: typing 1s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+/* Add this CSS to your Demo8.css file */
+
+.App-header {
+  background-color: #1f618d; /* Darker shade of blue */
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+}
+
+.header-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 15px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #70a1ff; /* Lighter shade of blue */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Simulate a swimming pool background */
+body {
+  background: url('') no-repeat center center fixed;
+  background-size: cover;
+}
+/* src/Demo8.css */
+.Demo8 {
+    text-align: center;
+    /* Add other Demo8-specific styles */
+  }
+  
+  .Demo8-header {
+    background-color: #1f618d;
+    padding: 20px;
+    color: white;
+  }
+  
+  .Demo8-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .Demo8-nav li {
+    margin-right: 15px;
+  }
+  
+  .Demo8-nav a {
+    text-decoration: none;
+    color: #70a1ff;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .Demo8-PoolTrainer {
+    /* Add styles for PoolTrainer section */
+  }
+  
+  .Demo8-AnotherSection {
+    /* Add styles for AnotherSection section */
+  }
+  
+  .Demo8-section-image img {
+    /* Add styles for section image */
+  }
+  
+  .Demo8-section-content {
+    /* Add styles for section content */
+  }
+  
+  .Demo8-footer {
+    /* Add styles for footer */
+  }
+  

@@ -1,0 +1,772 @@
+:root {
+    --color-primary: #fff;
+    --text-primary: #666666;
+    --icons-color: #fd4a36;
+    --heading-color: #0c2957;
+    --background-color: #f8f8ff;
+    --bg-color: linear-gradient(66deg, rgba(48, 5, 123, 1) 16%, rgba(59, 19, 141, 1) 49%, rgba(106, 73, 203, 1) 81%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.heading {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 1.25rem 0;
+    position: relative;
+    z-index: 2;
+    transition: all ease-in 0.5s;
+}
+
+.heading span {
+    display: block;
+    margin: 0 0 0.625rem 0;
+    color: var(--icons-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.heading h2 {
+    font-size: 1.5625rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    color: var(--heading-color);
+}
+
+.heading p {
+    font-size: 0.8125rem;
+    display: block;
+    margin: 0.625rem 0;
+    text-transform: capitalize;
+    color: var(--text-primary);
+}
+
+
+/* Reset some default styles and add basic styling */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    padding: 10px 0; /* Adjust the padding as needed */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Style the navigation menu */
+.menu-items {
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px; /* Adjust the spacing between menu items as needed */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Change the text color as needed */
+    font-weight: bold;
+}
+
+/* Style the burger menu toggle for smaller screens */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-burger {
+    width: 30px;
+    height: 3px;
+    background-color: #fff; /* Change the color as needed */
+    margin: 6px 0;
+}
+
+/* Media query for responsive design */
+@media only screen and (max-width: 768px) {
+    .menu-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333; /* Change the background color as needed */
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+   
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+
+/* slider */
+
+/* Your existing styles for the slider section and carousel */
+
+/* Style the carousel controls (arrows) */
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #fff; /* Change the arrow color as needed */
+    cursor: pointer;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+}
+
+/* Optional: Adjust arrow position */
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    flex: 0 0 calc(33.3333% - 20px); /* Adjust as needed */
+    background-color: #f0f0f0; /* Change to your preferred background color */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555; /* Change to your preferred text color */
+}
+
+/* General Styling */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Section 1 - What I Offer */
+.bg-01 {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+
+.bg-01 .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bg-01 .wrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bg-01 .wrapper:hover {
+    transform: translateY(-10px);
+}
+
+/* Section 2 - How I Work */
+.bg-02 {
+    padding: 80px 0;
+}
+
+.bg-02 .image {
+    text-align: center;
+}
+
+.bg-02 .heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.bg-02 .wrapper {
+    margin-top: 30px;
+}
+
+.bg-02 .icon {
+    text-align: center;
+}
+
+.bg-02 .icon i {
+    font-size: 36px;
+    color: #2ecc71;
+}
+
+/* Section 3 - Services */
+.bg-03 {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+
+.bg-03 .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bg-03 .wrapper {
+    margin-top: 30px;
+}
+
+.bg-03 .content {
+    text-align: center;
+}
+
+/* Section 4 - Flexible Plans */
+.bg-04 {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.bg-04 .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bg-04 .wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+}
+
+.bg-04 .head-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    flex: 0 0 30%; /* Adjust the width as needed */
+    margin: 0 10px; /* Adjust the spacing between cards */
+}
+
+.bg-04 .inner-content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bg-04 .inner-content:hover {
+    transform: translateY(-10px);
+}
+
+.bg-04 ol {
+    list-style: none;
+    padding: 0;
+}
+
+.bg-04 ol li {
+    margin-bottom: 10px;
+}
+
+.bg-04 a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section 5 - Testimonial/Client */
+.textimonial-client {
+    padding: 0px 0;
+}
+
+.textimonial-client .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.textimonial-client .wrapper {
+    text-align: center;
+}
+
+.textimonial-client h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.textimonial-client p {
+    margin-bottom: 20px;
+}
+
+.textimonial-client a img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+.container {
+    padding: 0px 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+}
+
+.team-wrapper {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    flex: 1; /* Use flex to distribute space evenly */
+    margin: 0 10px 20px; /* Add margin for spacing between cards and space at the bottom */
+}
+
+.team-wrapper:hover {
+    transform: translateY(-10px);
+}
+
+.team-img img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.team-content {
+    margin-top: 20px;
+}
+
+.team-content h3 {
+    margin-bottom: 10px;
+}
+
+.team-content p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.team-content ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.team-content ul li {
+    margin: 0 5px;
+}
+
+.team-content ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #555;
+    transition: color 0.3s ease-in-out;
+}
+
+.team-content ul li a:hover {
+    color: #007bff;
+}
+
+/* Add styles for the blog section */
+.bg-06 {
+    padding: 80px 0;
+}
+
+.heading h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Style for each blog article */
+.blog-sub {
+    margin-bottom: 30px;
+}
+
+.blog-content img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.blo-content-title h4 {
+    margin-top: 20px;
+}
+
+.blo-content-title p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.blog-admin {
+    margin-top: 20px;
+}
+
+.blog-admin ol {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-admin li {
+    color: #777;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.blog-admin i {
+    margin-right: 5px;
+    color: #007bff; /* Adjust the color as needed */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 767px) {
+    .blog-sub {
+        text-align: center;
+    }
+
+    .blog-content img {
+        margin-bottom: 15px;
+    }
+}
+/* General Footer Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.end-footer {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation Styles */
+.copy-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.copy-right ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.copy-right a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.copy-right a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
+
+/* Additional Styles for the Right Section */
+.right-section {
+    text-align: right;
+}
+
+.right-section p {
+    margin-bottom: 20px;
+}
+
+.right-section ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-section ol li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.right-section a {
+    color: #ffd700; /* Change to your preferred link color */
+    text-decoration: none;
+}
+
+.right-section a:hover {
+    text-decoration: underline;
+}
+
+/* Reset default styles for some elements */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the slider section */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Set the height to cover the full viewport height */
+    overflow: hidden;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Change to your preferred text color */
+}
+
+.banner-content h1 {
+    font-size: 2.5rem; /* Change to your preferred font size */
+    margin-bottom: 20px;
+}
+
+.banner-content ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-content ol li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.banner-content a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner-content a:hover {
+    text-decoration: underline;
+}
+
+/* Make images cover the full screen */
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f9f2f2; /* Change to black color or your preferred text color */
+}
+
+.banner-content a {
+    color: white; /* Change to black color or your preferred link color */
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    width: calc(50% - 20px); /* Adjust the width and margin as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.content {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content i {
+    font-size: 40px;
+    color: #3498db; /* Change to your preferred icon color */
+}
+
+.content h4 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.content p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Custom styles for carousel cards */
+.carousel-inner {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.carousel-item {
+    flex: 0 0 calc(25% - 10px); /* Adjust width as needed, considering the padding */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px; /* Adjust spacing between cards */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.carousel-item:last-child {
+    margin-right: 0;
+}
+
+.carousel-item h3 {
+    color: #333; /* Set your desired text color */
+    margin-top: 5px;
+    font-size: 14px; /* Adjust font size */
+}
+
+.carousel-item p {
+    color: #666; /* Set your desired text color */
+    margin-bottom: 10px;
+    font-size: 12px; /* Adjust font size */
+}
+
+.carousel-item a {
+    display: inline-block;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Adjust carousel controls */
+.carousel-indicators {
+    bottom: -15px; /* Adjust the position of the indicators as needed */
+}
+
+/* Optional: Style the active indicator differently */
+.carousel-indicators .active {
+    background-color: #007bff; /* Set your desired active indicator color */
+}
+/* Center the heading */
+.col-12 .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%; /* Optional: Ensure full height */
+}
+
+.col-12 .heading h2 {
+    margin: 0;
+}
+
+.col-12 .heading span {
+    display: block;
+    margin-top: 10px; /* Adjust as needed */
+}
+
+.custom-carousel-inner {
+    position: relative;
+}
+
+.custom-carousel-item {
+    height: 100vh;
+}
+
+.custom-banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust text color as needed */
+    z-index: 2;
+}
+
+.custom-banner-content h1 {
+    font-size: 2em; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+}
+
+.custom-banner-content ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-banner-content ol li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.custom-d-block {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,46 @@
+/* Demo11.css */
+
+/* Common Styles */
+.Demo-11app-container {
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  .Demo-11header, .Demo-11footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Galaxy Theme Styles */
+  .Galaxy-theme {
+    background: radial-gradient(circle, #0c1446 10%, #000000 90%); /* Radial gradient for a galaxy background */
+  }
+  
+  .Galaxy-theme h1, .Galaxy-theme h2, .Galaxy-theme h3 {
+    color: #ffffff; /* White text for headings */
+  }
+  
+  .Galaxy-theme p {
+    color: #d0d0d0; /* Light gray text for paragraphs */
+  }
+  
+  .Demo-11planet-item img {
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Demo-11planet-item:hover img {
+    transform: scale(1.1);
+
+
+
+  }
+
+
+  .Demo-11planet-info-section{
+    background-color: black;
+  }
+  
+  /* ... (other existing styles) */
+  

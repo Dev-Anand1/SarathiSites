@@ -1,0 +1,99 @@
+/* Demo14.css */
+.Demo-14-app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .Demo-14-main-section {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards, slideUp 0.5s ease-in-out forwards;
+    transition: color 0.3s ease-in-out;
+    transform-origin: center bottom;
+  }
+  
+  .Demo-14-main-section:hover {
+    opacity: 1;
+  }
+  
+  .Demo-14-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Demo-14-text {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards, slideUp 0.5s ease-in-out forwards;
+    transition: color 0.3s ease-in-out;
+    transform-origin: center bottom;
+  }
+  
+  .Demo-14-main-section:hover .Demo-14-text {
+    opacity: 1;
+    color: #ff4500;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+/* Demo14.css */
+/* ... Previous styles ... */
+
+.Demo-14-image {
+    width: 1000%;
+    height: auto;
+    border-radius: 8px; /* Added border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box-shadow for a subtle shadow effect */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .Demo-14-main-section:hover .Demo-14-image {
+    transform: scale(1.05); /* Added scale transform on hover for a zoom effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+  }
+  
+  /* ... Remaining styles ... */
+    

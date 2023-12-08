@@ -1,0 +1,99 @@
+/* Demo22.css */
+.Demo22-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Light background color */
+  }
+  
+  .Demo22-app {
+    overflow: hidden;
+  }
+  
+  .Demo22-header {
+    background-color: #ffee99; /* Light yellow background for the header */
+    color: #2d3a4b; /* Dark blue text color */
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  .Demo22-header h1 {
+    margin: 0;
+    float: left;
+  }
+  
+  .Demo22-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  .Demo22-nav li {
+    display: inline;
+    margin-left: 20px;
+    color: #2d3a4b; /* Dark blue text color */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .Demo22-nav li:hover {
+    color: #61dafb; /* Light blue color on hover */
+  }
+  
+  .Demo22-main-content {
+    padding: 20px;
+  }
+  
+  .Demo22-intro,
+  .Demo22-story,
+  .Demo22-characters,
+  .Demo22-announcements {
+    background-color: #ffffcc; /* Light yellow background for content sections */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease-in-out; /* Automatic color change effect */
+  }
+  
+  .Demo22-intro:hover,
+  .Demo22-story:hover,
+  .Demo22-characters:hover,
+  .Demo22-announcements:hover {
+    background-color: #aaffff; /* Light blue background on hover */
+  }
+  
+  .Demo22-flash-on-hover:hover {
+    color: #ff0000; /* Red text color on hover */
+    transition: color 0.5s ease-in-out;
+  }
+  
+  .Demo22-footer {
+    background-color: #2d3a4b; /* Dark blue background for the footer */
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Automatic color change effect for specific divs */
+  .Demo22-main-content .Demo22-intro:hover,
+  .Demo22-main-content .Demo22-story:hover,
+  .Demo22-main-content .Demo22-characters:hover,
+  .Demo22-main-content .Demo22-announcements:hover {
+    background-color: #ffcc66; /* Light orange background on hover */
+    transition: background-color 0.5s ease-in-out;
+  }
+  

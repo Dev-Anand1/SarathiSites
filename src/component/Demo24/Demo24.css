@@ -1,0 +1,81 @@
+/* src/Demo24/Demo24.css */
+
+/* Styles for FurnitureStore component */
+.Demo24-furniture-store {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .Demo24-store-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .Demo24-store-header h1 {
+    margin: 0;
+  }
+  
+  .Demo24-store-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Demo24-store-nav li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  /* Main Content Styles */
+  .Demo24-store-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Demo24-product-category {
+    flex: 0 0 33.33%;
+    padding: 15px;
+  }
+  
+  .Demo24-product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /* Footer Styles */
+  .Demo24-store-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Demo24-footer-info h3 {
+    margin: 0 0 10px;
+  }
+  
+  .Demo24-social-media ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  .Demo24-social-media li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .Demo24-copyright {
+    margin-top: 20px;
+  }
+  

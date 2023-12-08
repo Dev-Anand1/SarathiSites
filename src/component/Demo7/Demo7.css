@@ -1,0 +1,154 @@
+/* Home.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color to the body */
+  .body01 {
+    
+    font-family: 'Verdana', sans-serif; /* Change font to Verdana */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #3498db; /* Blue background for the header */
+    color: #fff; /* White text color */
+    padding: 15px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 120px; /* Adjust the size as needed */
+  }
+  
+  .contact-info p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1rem; /* Increase font size */
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none;
+    padding: 12px;
+    font-size: 1.1rem; /* Increase font size */
+  }
+  
+  /* Main content styles */
+  .main-section {
+    padding: 30px; /* Increase padding */
+  }
+  
+  .coaching-section h2 {
+    color: #2980b9; /* Dark blue text color */
+    font-size: 2rem; /* Increase font size */
+  }
+  
+  /* Expanded content styles */
+  .coaching-section p {
+    font-size: 1.2rem; /* Increase font size */
+    margin-bottom: 15px; /* Increase space between paragraphs */
+  }
+  
+  /* Button styles */
+  .explore-button {
+    background-color: #2980b9; /* Dark blue button color */
+    color: #fff; /* White text color for the button */
+    padding: 12px 25px;
+    border: none;
+    font-size: 1.2rem; /* Increase font size */
+    cursor: pointer;
+  }
+  
+  .explore-button:hover {
+    background-color: #21618c; /* Darker blue on hover */
+  }
+  
+  /* Image styles */
+  .pool-image {
+    width: 100%;
+    height: auto;
+    margin-top: 30px; /* Increase margin */
+  }
+  
+  /* Button styles */
+  .learn-more-button {
+    background-color: #27ae60; /* Green button color */
+    color: #fff; /* White text color for the button */
+    padding: 12px 25px;
+    border: none;
+    font-size: 1.2rem; /* Increase font size */
+    cursor: pointer;
+    margin-left: 15px; /* Increase margin */
+  }
+  
+  .learn-more-button:hover {
+    background-color: #219653; /* Darker green on hover */
+  }
+  
+  /* Resources section */
+  .resources-section {
+    margin-top: 50px; /* Increase margin */
+  }
+  
+  .resources-section h2 {
+    color: #27ae60; /* Green text color */
+    font-size: 2rem; /* Increase font size */
+  }
+  
+  .resources-section p {
+    font-size: 1.2rem; /* Increase font size */
+    margin-bottom: 15px; /* Increase space between paragraphs */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #3498db; /* Blue background for the footer */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons,
+  .footer-links {
+    margin-top: 20px; /* Increase margin */
+  }
+  
+  .social-icon,
+  .footer-links a {
+    color: #fff; /* White color for social icons and footer links */
+    margin: 0 15px; /* Increase margin */
+    text-decoration: none;
+    font-size: 1.2rem; /* Increase font size */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .main-section {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav a {
+      margin-bottom: 15px; /* Increase margin for navigation links */
+    }
+  }
+  

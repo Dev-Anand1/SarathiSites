@@ -1,0 +1,75 @@
+/* Demo11.css */
+
+/* ... (existing styles) */
+
+
+  
+  .Demo-11app-container {
+    background: url('https://img.pikbest.com/origin/09/29/10/93EpIkbEsTdJ4.png!sw800') repeat; /* Add your space background image path */
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  .Demo-11header h1 {
+    color: #ffd700; /* Gold color for the header text */
+    font-size: 2.5em; /* Increase font size */
+  }
+  
+  .Demo-11main-content {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white background for the main content */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .Demo-11planet-facts {
+    border-bottom: 2px solid #ffd700; /* Gold color border for section separation */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Demo-11planet-details {
+    color: #ffd700; /* Gold color for planet details */
+    font-size: 1.3em; /* Increase font size */
+  }
+  
+  .Demo-11planet-size-order {
+    border-top: 2px solid #ffd700;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .Demo-11planet-info-section {
+    margin-bottom: 20px;
+    font-size: 1.2em; /* Increase font size */
+  }
+  
+  .Demo-11footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #ffd700;
+  }
+  
+  /* ... (existing styles) */
+  .Demo-11planet-list {
+    display: flex;
+    gap: 10px;
+    overflow: auto; /* Enable scrolling for the planet list */
+  }
+  
+  .Demo-11planet-item {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .Demo-11planet-item img {
+    max-width: 50%; /* Limit the image width to its container */
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Demo-11planet-item:hover img {
+    transform: scale(1.1); /* Apply a slight scale on hover for a zoom effect */
+  }
+  

@@ -1,0 +1,59 @@
+/* App.css */
+
+  
+  .header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .home {
+    background-color: #ffc107;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .earth-science {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .main-part {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Particle animation */
+  .Demo-13 {
+    position: relative;
+  }
+  
+  .particle {
+    position: absolute;
+    background-color: #ff5733;
+    border-radius: 50%;
+    animation: particleAnimation linear infinite;
+  }
+  
+  @keyframes particleAnimation {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100vh);
+    }
+  }
+  

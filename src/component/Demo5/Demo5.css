@@ -1,0 +1,169 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a background color to the body */
+body {
+  /* Light grayish background */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Dark gray background for the header */
+  color: #fff; /* White text color */
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  color: #fff; /* White text color for navigation links */
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+/* Welcome section */
+.Demo5-welcome {
+  background-color: #8f9779; /* Earthy green color */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 50px 0;
+}
+
+.Demo5-welcome-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.Demo5-welcome-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.Demo5-welcome-content button {
+  background-color: #333; /* Dark gray button color */
+  color: #fff; /* White text color for the button */
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.Demo5-welcome-content button:hover {
+  background-color: #555; /* Darker gray on hover */
+}
+
+/* Features section */
+.Demo5-features {
+  margin-top: 30px;
+}
+
+.Demo5-feature-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow features to wrap to the next line on smaller screens */
+  justify-content: space-around;
+}
+
+.Demo5-feature {
+  background-color: #b3b993; /* Light green for each feature */
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  width: 45%; /* Adjust the width for better spacing on smaller screens */
+}
+
+.Demo5-feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.Demo5-feature p {
+  font-size: 1rem;
+}
+
+/* Testimonials section */
+.Demo5-testimonials {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Demo5-testimonial-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow testimonials to wrap to the next line on smaller screens */
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.Demo5-testimonial {
+  background-color: #8f9779; /* Earthy green for testimonials */
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  width: 45%; /* Adjust the width for better spacing on smaller screens */
+}
+
+.Demo5-testimonial p {
+  font-style: italic;
+}
+
+.Demo5-testimonial span {
+  font-weight: bold;
+}
+
+/* Contact Us section */
+.Demo5-contact-us {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Demo5-contact-us h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.Demo5-contact-us p {
+  font-size: 1.2rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; /* Dark gray background for the footer */
+  color: #fff; /* White text color */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Social Icons */
+.Demo5-social-icons {
+  margin-top: 10px;
+}
+
+.Demo5-social-icon {
+  color: #fff; /* White color for social icons */
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+
+  .Demo5-feature, .Demo5-testimonial {
+    width: 100%; /* Make features and testimonials take full width on smaller screens */
+  }
+}

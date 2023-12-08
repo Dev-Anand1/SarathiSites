@@ -1,0 +1,222 @@
+/* Demo17.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  /* Header Styles */
+  .Demo17-header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .Demo17-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .Demo17-header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .Demo17-header nav li {
+    margin-right: 1rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Main Section Styles */
+  .Demo17-main-section {
+    background-color: #f0f0f0;
+    padding: 2rem;
+  }
+  
+  /* Car Banner Styles */
+  .Demo17-car-banner {
+    position: relative;
+  }
+  
+  .Demo17-car-banner img {
+    width: 100%;
+  }
+  
+  .Demo17-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .Demo17-banner-text h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .Demo17-banner-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Demo17-banner-text button {
+    background-color: red;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+ /* Services Section Styles */
+.Demo17-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  .Demo17-service-card {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    width: 45%; /* Set card width to 45% for two cards in a row */
+    box-sizing: border-box;
+  }
+  
+  .Demo17-service-card img {
+    max-width: 100%;
+    height: auto; /* Maintain image aspect ratio */
+    width: 100%; /* Ensure images fill the container */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+  }
+  
+  .Demo17-service-card h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: blue;
+  }
+  
+  .Demo17-service-card p {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  /* About Us Section Styles */
+  .Demo17-about-us {
+    background-color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .Demo17-about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: red;
+  }
+  
+  .Demo17-about-us p {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  .Demo17-about-us img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  /* Why Us Section Styles */
+  .Demo17-why-us {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .Demo17-why-us h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: red;
+  }
+  
+  .Demo17-why-us ul {
+    list-style: none;
+  }
+  
+  .Demo17-why-us li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+  
+  .Demo17-why-us img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  /* Footer Styles */
+  .Demo17-footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Demo17-footer-section {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .Demo17-footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: red;
+  }
+  
+  .Demo17-footer p {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .Demo17-useful-links ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Demo17-useful-links li {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .Demo17-social-icons img {
+    width: 30px;
+    margin-right: 1rem;
+  }
+  
+  .Demo17-copyright {
+    flex: 1;
+    text-align: right;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .Demo17-footer-section {
+      margin-right: 0;
+    }
+  }
+  
+  

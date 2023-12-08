@@ -1,0 +1,56 @@
+/* src/Demo21.css */
+
+.Demo21-plant-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif; /* Replace with your desired font */
+    background: linear-gradient(to right, #ff4d4d, #ffcccb); /* Gradient background */
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .Demo21-page-header {
+    background-color: #ff4d4d; /* Red background */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .Demo21-introduction {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .Demo21-plant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Demo21-plant-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    width: calc(50% - 2rem);
+    border: 5px solid #ff4d4d; /* Red border */
+    border-radius: 15px;
+    overflow: hidden;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .Demo21-plant-item:hover {
+    background-color: #ff4d4d; /* Red background on hover */
+    transform: scale(1.02); /* Slightly scale up on hover */
+  }
+  
+  .Demo21-plant-item h2 {
+    margin: 0.5rem 0;
+    color: #ff4d4d; /* Red color for headings */
+  }
+  
+  .Demo21-plant-item p {
+    margin: 1rem 0;
+    color: #333; /* Darker text color */
+  }
+  

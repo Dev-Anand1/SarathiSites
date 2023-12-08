@@ -1,0 +1,140 @@
+/* ContactUs.css */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the container */
+    margin-left: 20px; /* Add spacing between image and information */
+  }
+  
+  .info-container h {
+    margin: 5px 0;
+    font-family: 'Pacifico', cursive, sans-serif; /* Use Pacifico font for headings */
+  }
+  
+  /* Media Query for screens smaller than 768px */
+  @media only screen and (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* Change flex direction to column on smaller screens */
+      text-align: center; /* Center text on smaller screens */
+    }
+  
+    .info-container {
+      margin-left: 0; /* Remove left margin on smaller screens */
+      margin-top: 20px; /* Add top margin for spacing on smaller screens */
+    }
+  
+    .info-container h {
+      text-align: center; /* Center text on smaller screens */
+    }
+  }
+  
+  /* Add additional styling as needed */
+/* ContactUs.css */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the container */
+    margin-left: 20px; /* Add spacing between image and information */
+  }
+  
+  .info-container h {
+    margin: 5px 0;
+    font-family: 'Pacifico', cursive, sans-serif; /* Use Pacifico font for headings */
+  }
+  
+  /* Media Query for screens smaller than 768px */
+  @media only screen and (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* Change flex direction to column on smaller screens */
+      text-align: center; /* Center text on smaller screens */
+    }
+  
+    .info-container {
+      margin-left: 0; /* Remove left margin on smaller screens */
+      margin-top: 20px; /* Add top margin for spacing on smaller screens */
+    }
+  
+    .info-container h {
+      text-align: center; /* Center text on smaller screens */
+    }
+  }
+  
+  /* Add additional styling as needed */
+
+  /* ContactUs.css */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    background: linear-gradient(to bottom, #ae34db, rgb(188, 83, 181)); /* Add gradient background */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the container */
+    margin-left: 20px; /* Add spacing between image and information */
+  }
+  
+  .info-container h {
+    margin: 5px 0;
+    font-family: 'Pacifico', cursive, sans-serif; /* Use Pacifico font for headings */
+    color: white; /* Set text color to white */
+  }
+  
+  /* Media Query for screens smaller than 768px */
+  @media only screen and (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* Change flex direction to column on smaller screens */
+      text-align: center; /* Center text on smaller screens */
+    }
+  
+    .info-container {
+      margin-left: 0; /* Remove left margin on smaller screens */
+      margin-top: 20px; /* Add top margin for spacing on smaller screens */
+    }
+  
+    .info-container h {
+      text-align: center; /* Center text on smaller screens */
+    }
+  }
+  
